@@ -1,35 +1,41 @@
+/**
+ * ==
+ * !=
+ * > greater than
+ * < less than
+ * <= less than
+ * >= greater than
+ */
 #include<stdio.h>
 int main(){
-    //Relational operators
-    int num1=20;
-    int num2=30;
-    int num3=20;
+    int a=20;
+    int b=10;
+    int c=20;
 
-    //  * > greater than
-    printf("grater than > === %d \n ",num1>num2);
+    //Double equal to ==  true=1; false=0
+    printf("a==c %d\n",a==c);
+     printf("a==b %d\n",a==b);
 
-    //  * < lesss than
-    printf("less than < === %d \n", num2< num3);
+    //  != not equal to true=1; false=0
+    printf("a!=b %d\n",a!=b);
+    printf("a!=c %d\n",a!=c);
 
-    //  * <= less than or equal to
-    printf("less than or equal to <= === %d \n",num1<= num2);
-    printf(" less than or equal to<= === %d \n", num2 <= num3);
+    // >= greater than equal to
+    printf("a>=b %d\n",a>=b);
+     printf("a>=c %d\n",a>=c);
 
-    //  * >= greater than or equal to
-    printf(" greater than or equal to<= === %d \n", num2 >= num3);
+   //<= less than equal to
+   printf("a<=c %d\n",a<=c);
+      printf("c<=b %d\n",c<=b);
+
+       // < less than
+    printf("a<c %d\n",a<c);
+        printf("b<a %d\n",b<a);
+
+    // > greater than
+    printf("a>c %d\n",a>c);
 
 
-    //  * == double equal to
-    printf(" == equal to  %d \n", num1==num2);
-        printf(" == equal to  %d \n", num1==num3);
-
-  
-    //  * != not equal to
-     printf(" != not equal to  %d \n", num1!=num2);
-        printf(" != not equal to  %d \n", num1!=num3);
-    
-    printf("hello coder");
 
     return 0;
-
 }
