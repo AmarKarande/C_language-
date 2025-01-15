@@ -9,7 +9,7 @@ int main(){
     int flag=0;
 
     // User input
-    printf("Enter a elemnt for search : ");
+    printf("Enter a element for search : ");
     scanf("%d",&key);
 
  
