@@ -27,7 +27,6 @@ void calculator(int x, int y){
         printf("Modulo of %d // %d = %d",x,y,x%y);
         break;
         default:
-            printf("Invalid Input!");
-        
+            printf("Invalid Input!");        
     }
 }
