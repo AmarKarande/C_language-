@@ -2,16 +2,19 @@
 int finbonacci(int n);
 int main(){
     // Recursion 
-    //  int result=finbonacci(10);
-    int n=5;
+     //print Series
+    int n=10;
+    printf("Fib series of number %d = ",n);
     for(int i=0;i<=n;i++){
         printf("%d ",finbonacci(i));
     }
-   
-    // printf("%d ",result);
+    printf("\n");
+    // print Total
+    int result=finbonacci(n);
+    printf("Total of series of number %d = %d \n",n,result);
     return 0;
-}
-int finbonacci(int n){
+    }
+    int finbonacci(int n){
     if(n==0){
         return 0;
     }
