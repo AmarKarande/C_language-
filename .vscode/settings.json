@@ -1,5 +1,7 @@
 {
   "files.associations": {
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "fibonacci series": "cpp",
+    "fibonacci_series.C": "cpp"
   }
 }
