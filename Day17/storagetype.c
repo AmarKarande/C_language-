@@ -21,7 +21,7 @@ int main(){
   printf("Values are : ");
      for(int i=0; i<size;i++){    
      printf("%d ",ptr2[i]);
-     printf("Ptr2 = %x \n",&ptr2[i]);
+    //  printf("Ptr2 = %x \n",&ptr2[i]);
    }
     return 0;
 }
