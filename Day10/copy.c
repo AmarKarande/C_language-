@@ -10,8 +10,6 @@ int main() {
    printf("\n");
   
    int size=strlen(str1);
- 
-
    printf("\n");
    
 //    Without function print calculate the length
@@ -23,7 +21,6 @@ int main() {
         str2[i]=temp;
         printf("%c",str2[i]);
     }
-
     //  for(int i=0;i<size;i++){
     //   printf(" %c",str2[i]);
     // }

@@ -27,10 +27,9 @@ char src1[100]="copies the contents of source string to destination string.";
     // }
     char dest1[100];
     for(int i=0;i<size;i++){
-        if(src1[i]!=0){
-            src1[i]=dest1[i];
+     if()
         }
     }
-     printf("without strcpy() dest1 string= %s\n",dest1);
-return 0;
+    printf("without strcpy() dest1 string= %s\n",dest1);
+    return 0;
 }

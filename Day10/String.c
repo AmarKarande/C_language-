@@ -20,11 +20,11 @@ int main() {
     scanf("%s",&temp);
     char name2[5];
     printf("\n");
-                printf("Enter a name2 : ");
+    printf("Enter a name2 : ");
 
     for(int i=0; i<5;i++){ 
-             int temp;
-            scanf("%s",temp);
+        int temp;
+        scanf("%s",temp);
 
         scanf("%c",name2);
     }
